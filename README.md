@@ -123,3 +123,8 @@ Built as a full-stack data science project, it combines text preprocessing, feat
     </td>
   </tr>
 </table>
+
+***
+This project is licensed under the [MIT License](LICENSE).
+
+***
