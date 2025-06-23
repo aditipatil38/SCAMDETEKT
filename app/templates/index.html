@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email Spam Detector</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="main-wrapper">
+    <div class="image-box">
+      <img src="{{ url_for('static', filename='images/search.jpg') }}" alt="Search image">
+    </div>
+
+    <div class="container">
+      <h2> Email Spam Classifier</h2>
+      <form method="POST" action="/predict">
+        <textarea name="message" placeholder="Paste your email here..."></textarea><br>
+        <button type="submit"> Check Now</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
